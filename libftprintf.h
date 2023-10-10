@@ -69,7 +69,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
-//printf functions below
+//printf functions below:
 //actual printf & placeholder check - first file
 int		ft_printf(const char	*s,	...);
 void	ft_check_placeholder(const char s, va_list *args, int *length);
