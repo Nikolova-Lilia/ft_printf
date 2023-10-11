@@ -6,11 +6,11 @@
 /*   By: lnikolov <lnikolov@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/16 14:29:05 by lnikolov          #+#    #+#             */
-/*   Updated: 2023/10/10 16:53:54 by lnikolov         ###   ########.fr       */
+/*   Updated: 2023/10/11 15:10:02 by lnikolov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "libft.h"
 /*The memcpy() function copies n bytes
 from memory area src to memory area dest.
 The memory areas must not overlap.

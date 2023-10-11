@@ -6,11 +6,11 @@
 /*   By: lnikolov <lnikolov@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 11:56:52 by lnikolov          #+#    #+#             */
-/*   Updated: 2023/10/10 16:53:54 by lnikolov         ###   ########.fr       */
+/*   Updated: 2023/10/11 15:10:02 by lnikolov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "libft.h"
 /*Outputs the integer ’n’ to the given file
 descriptor.*/
 void	ft_putnbr_fd(int n, int fd)

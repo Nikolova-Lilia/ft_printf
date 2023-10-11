@@ -6,11 +6,11 @@
 /*   By: lnikolov <lnikolov@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 15:34:13 by lnikolov          #+#    #+#             */
-/*   Updated: 2023/10/10 17:09:42 by lnikolov         ###   ########.fr       */
+/*   Updated: 2023/10/11 15:10:02 by lnikolov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "libft.h"
 //checks 'x' || 'X' for the base, if it has to print lower or upper 
 
 char	*ft_check_x(char s)
@@ -69,6 +69,12 @@ int	ft_putnbr_hex(char s, unsigned long x, int *length)
 
 void	ft_putchar_pointer(unsigned long p, int *length)
 {
+	if (!p)
+	{
+		write(1, "(nil)", 5);
+		(*length) += 5;
+		return ;
+	}
 	write(1, "0x", 2);
 	(*length) += 2;
 	ft_putnbr_hex('x', p, length);

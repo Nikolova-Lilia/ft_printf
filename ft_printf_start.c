@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.c                                        :+:      :+:    :+:   */
+/*   ft_printf_start.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lnikolov <lnikolov@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 13:28:30 by lnikolov          #+#    #+#             */
-/*   Updated: 2023/10/10 17:09:28 by lnikolov         ###   ########.fr       */
+/*   Updated: 2023/10/11 15:10:02 by lnikolov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "libft.h"
 //the actual printf below. First part checks the string and stops on
 //every char to see if it's a placeholder & counts the length
 //else handles everything that is a simple text. ex: "Hello world";

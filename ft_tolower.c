@@ -6,11 +6,11 @@
 /*   By: lnikolov <lnikolov@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/18 10:07:20 by lnikolov          #+#    #+#             */
-/*   Updated: 2023/10/10 16:53:54 by lnikolov         ###   ########.fr       */
+/*   Updated: 2023/10/11 15:10:02 by lnikolov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "libft.h"
 /*If c is an uppercase letter,
 tolower() returns  its  lowercase  equivalent,
 if a lowercase representation exists in

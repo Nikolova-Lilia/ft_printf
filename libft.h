@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libftprintf.h                                      :+:      :+:    :+:   */
+/*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lnikolov <lnikolov@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 15:42:46 by lnikolov          #+#    #+#             */
-/*   Updated: 2023/10/10 17:04:18 by lnikolov         ###   ########.fr       */
+/*   Updated: 2023/10/11 15:10:42 by lnikolov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFTPRINTF_H
-# define LIBFTPRINTF_H
+#ifndef LIBFT_H
+# define LIBFT_H
 
 # include <stdarg.h>
 # include <unistd.h>
@@ -69,9 +69,9 @@ void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
-//printf functions below:
+//printf functions below
 //actual printf & placeholder check - first file
-int		ft_printf(const char	*s,	...);
+int		ft_printf_start(const char	*s,	...);
 void	ft_check_placeholder(const char s, va_list *args, int *length);
 //printing char, string, ints & unsign ints - second file 
 void	ft_putchar_length(char c, int *length);
